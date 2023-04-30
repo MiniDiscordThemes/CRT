@@ -27,7 +27,7 @@
 
 ### Vencord
 1. Install [Vencord](https://github.com/Vendicated/Vencord).
-2. Paste the following in Themes:
+2. Paste the following in `Settings` > `Vencord` > `Themes`:
     - `https://minidiscordthemes.github.io/CRT/CRT.theme.css`
 
 ## Customisation
@@ -46,8 +46,8 @@
 | Screen flicker speed           | `--crt-flicker-speed`                                 | Any time, in `ms` or `s`                            | `calc(1s/30)`                                    |
 | Screen flicker colour          | `--crt-flicker-color`                                 | Any CSS-recognised colour, low opacity recommended. | `rgba(0, 0, 0, 0.1)`                             |
 
-&#9936; This effect is performance-intensive.
-&#9888; This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy.
+- &#9936; This effect is performance-intensive.
+- &#9888; This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy.
 
 
 ### BetterDiscord
