@@ -1,10 +1,10 @@
 {
-    "name": "template-discord-theme",
+    "name": "crt-discord-theme",
     "version": "1.0.0",
-    "description": "A something something Discord theme.",
-    "repository": "https://github.com/Saltssaumure/template-discord-theme.git",
+    "description": "A CRT monitor effect Discord theme.",
+    "repository": "https://github.com/MiniDiscordThemes/CRT.git",
     "author": "Saltssaumure <saltssaumure@gmail.com>",
-    "license": "GPL-3.0",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev": "bd-scss dev",

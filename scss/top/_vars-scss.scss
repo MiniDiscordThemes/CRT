@@ -1,0 +1,15 @@
+$height: 9999;
+$size: 4px;
+
+$stripe: block;
+$stripe-light-color: rgba(255, 255, 255, 0.1);
+$stripe-dark-color: rgba(0, 0, 0, 0.1);
+
+$scanline: block;
+$scanline-speed: 3s;
+$scanline-color: rgba(0, 0, 0, 0.5);
+$scanline-direction: normal;
+
+$flicker: none;
+$flicker-speed: calc(1s / 30);
+$flicker-color: rgba(0, 0, 0, 0.1);

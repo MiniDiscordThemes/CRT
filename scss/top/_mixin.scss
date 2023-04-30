@@ -1,0 +1,6 @@
+@mixin overlay() {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 100vw;
+}
