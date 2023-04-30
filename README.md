@@ -1,23 +1,19 @@
-[light]: https://user-images.githubusercontent.com/29710355/231909647-72871e7f-8763-4174-9c71-5f1bb7d401bc.png
-[dark]: https://user-images.githubusercontent.com/29710355/231909520-b24c4301-2d90-4c6c-9e5d-ca9ce20e3ba6.png
+[screenshot]: https://user-images.githubusercontent.com/29710355/235372934-ff6988b0-daab-41e9-8668-11c8700b80c0.png
 
-# Template Discord Theme
-[![GitHub downloads](https://img.shields.io/github/downloads/saltssaumure/template-discord-theme/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/Saltssaumure/template-discord-theme/releases/latest "Latest release")
-![Total size](https://img.shields.io/github/repo-size/saltssaumure/template-discord-theme?style=flat-square "Total size")
+# CRT Discord Theme
+[![GitHub downloads](https://img.shields.io/github/downloads/MiniDiscordThemes/CRT/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/MiniDiscordThemes/CRT/releases/latest "Latest release")
+![Total size](https://img.shields.io/github/repo-size/MiniDiscordThemes/CRT?style=flat-square "Total size")
 
-***A something something Discord theme.***
+***A CRT monitor effect Discord theme.***
 
-| Light mode                                                  | Dark mode                                                 |
-| ----------------------------------------------------------- | --------------------------------------------------------- |
-| ![Screenshot of Temp light mode applied to Discord][light] | ![Screenshot of Temp dark mode applied to Discord][dark] |
+![Screenshot of CRT applied to Discord][screenshot]
 
 ## Installation
 
 ### BetterDiscord
 1. Install [BetterDiscord](https://betterdiscord.app/).
 2. Download the theme file:
-    - [GitHub](https://github.com/Saltssaumure/template-discord-theme/releases/latest)
-    - [BD Store](https://betterdiscord.app/theme/?id=000)
+    - [GitHub](https://github.com/MiniDiscordThemes/CRT/releases/latest)
 3. Place theme file in the `themes` folder:
     - Windows: `%AppData%/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
@@ -26,19 +22,33 @@
 ### Replugged
 1. Install [Replugged](https://replugged.dev/).
 2. Install the theme:
-    - [GitHub](https://github.com/Saltssaumure/template-discord-theme/releases/latest)
-    - [Replugged.dev](https://replugged.dev/install?identifier=Saltssaumure/template-discord-theme&source=github)
+    - [GitHub](https://github.com/MiniDiscordThemes/CRT/releases/latest)
+    - [Replugged.dev](https://replugged.dev/install?identifier=MiniDiscordThemes/CRT&source=github)
 
 ### Vencord
 1. Install [Vencord](https://github.com/Vendicated/Vencord).
 2. Paste the following in Themes:
-    - `https://saltssaumure.github.io/template-discord-theme/Template.theme.css`
+    - `https://minidiscordthemes.github.io/CRT/CRT.theme.css`
 
 ## Customisation
 
-| Description       | Variable name     | Valid values               | Default value |
-|-------------------|-------------------|----------------------------|---------------|
-| Background colour | `--temp-bg-color` | Any CSS-recognised colour. | #000          |
+| Description                    | Variable name                                         | Valid values                                        | Default value                                    |
+| ------------------------------ | ----------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------ |
+| Stacking position              | `--crt-height`                                        | Any number.                                         | `9999`                                           |
+| Size of scanlines              | `--crt-size`                                          | Any length, preferrably in `px`.                    | `4px`                                            |
+| Scanline stripes on/off        | `--crt-stripe`                                        | `block` (on) or `none` (off).                       | `block`                                          |
+| Scanline stripes colour        | `--crt-stripe-light-color`, `--crt-stripe-dark-color` | Any CSS-recognised colour, low opacity recommended. | `rgba(255, 255, 255, 0.1)`, `rgba(0, 0, 0, 0.1)` |
+| &#9936; Moving scanline on/off | `--crt-scanline`                                      | `block` (on) or `none` (off).                       | `block`                                          |
+| Moving scanline speed          | `--crt-scanline-speed`                                | Any time, in `ms` or `s`.                           | `3s`                                             |
+| Moving scanline colour         | `--crt-scanline-color`                                | Any CSS-recognised colour.                          | `rgba(0, 0, 0, 0.5)`                             |
+| Moving scanline direction      | `--crt-scanline-direction`                            | `normal` or `reversed`.                             | `normal`                                         |
+| &#9888; Screen flicker on/off  | `--crt-flicker`                                       | `flicker` (on) or `none` (off).                     | `none`                                           |
+| Screen flicker speed           | `--crt-flicker-speed`                                 | Any time, in `ms` or `s`                            | `calc(1s/30)`                                    |
+| Screen flicker colour          | `--crt-flicker-color`                                 | Any CSS-recognised colour, low opacity recommended. | `rgba(0, 0, 0, 0.1)`                             |
+
+&#9936; This effect is performance-intensive.
+&#9888; This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy.
+
 
 ### BetterDiscord
 1. Open `Settings` > `BetterDiscord` > `Themes`.
@@ -47,7 +57,7 @@
 
 ### Replugged
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste line 30-36 of [`Template.theme.css`](https://github.com/Saltssaumure/template-discord-theme/blob/main/Template.theme.css).
+3. Copy and paste lines 16-34 of [`CRT.theme.css`](https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css).
 3. Edit the variable values and apply changes.
 
 ### Vencord
@@ -56,13 +66,13 @@
 #### Recommended method
 1. Open `Settings` > `Vencord` > `Vencord`.
 2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste line 30-36 of [`Template.theme.css`](https://github.com/Saltssaumure/template-discord-theme/blob/main/Template.theme.css).
+3. Copy and paste lines 16-34 of [`CRT.theme.css`](https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css).
 4. Edit the variable values.
 
 ## License
-[GNU General Public License v3.0](https://github.com/Saltssaumure/template-discord-theme/blob/main/LICENSE)
-- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
+[MIT License](https://github.com/MiniDiscordThemes/CRT/blob/main/LICENSE)
+- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, just include the original license.
 
 ## Questions or suggestions?
-- Post [an issue](https://github.com/Saltssaumure/template-discord-theme/issues) on GitHub.
+- Post [an issue](https://github.com/MiniDiscordThemes/CRT/issues) on GitHub.
 - Post in `#theme-support` on [my support server](https://discord.gg/uy8nKQVatp).
