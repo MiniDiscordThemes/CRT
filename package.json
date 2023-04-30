@@ -1,0 +1,25 @@
+{
+    "name": "crt-discord-theme",
+    "version": "1.0.0",
+    "description": "A CRT monitor effect Discord theme.",
+    "repository": "https://github.com/MiniDiscordThemes/CRT.git",
+    "author": "Saltssaumure <saltssaumure@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "bd-scss dev",
+        "bd": "bd-scss build",
+        "plug": "replugged build theme",
+        "bundle": "replugged bundle theme"
+    },
+    "type": "module",
+    "dependencies": {
+        "@parcel/config-default": "^2.8.3",
+        "@parcel/core": "^2.8.3",
+        "@parcel/transformer-sass": "^2.8.3",
+        "@types/node": "^18.11.15",
+        "prettier": "^2.8.1",
+        "replugged": "^4.2.1",
+        "salt-bd-scss": "^1.0.0"
+    }
+}

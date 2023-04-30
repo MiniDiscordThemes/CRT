@@ -1,0 +1,18 @@
+{
+    "id": "net.saltssaumure.CRT",
+    "name": "CRT",
+    "description": "A CRT monitor effect Discord theme.",
+    "author": {
+        "name": "Saltssaumure",
+        "discordID": "134142022092062720",
+        "github": "Saltssaumure"
+    },
+    "version": "1.0.0",
+    "updater": {
+        "type": "github",
+        "id": "MiniDiscordThemes/CRT"
+    },
+    "license": "MIT",
+    "type": "replugged-theme",
+    "main": "scss/crt.scss"
+}
