@@ -7,10 +7,10 @@
         "discordID": "134142022092062720",
         "github": "Saltssaumure"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "updater": {
-        "type": "github",
-        "id": "MiniDiscordThemes/CRT"
+        "type": "store",
+        "id": "net.saltssaumure.CRT"
     },
     "license": "MIT",
     "type": "replugged-theme",
