@@ -82,7 +82,7 @@
 
 ### Replugged
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-34 of [`CRT.theme.css`](https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css).
+3. Copy and paste lines 15-34 of [`CRT.theme.css`][.theme.css].
 3. Edit the variable values and apply changes.
 
 ### Vencord
@@ -91,7 +91,7 @@
 #### Recommended method
 1. Open `Settings` > `Vencord` > `Vencord`.
 2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste lines 15-34 of [`CRT.theme.css`](https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css).
+3. Copy and paste lines 15-34 of [`CRT.theme.css`][.theme.css].
 4. Edit the variable values.
 
 ## License
