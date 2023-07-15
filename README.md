@@ -18,15 +18,15 @@
 [issues]:           https://github.com/MiniDiscordThemes/CRT/issues
 [.theme.css]:       https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css
 
-[release-gh]:       https://github.com/MiniDiscordThemes/CRT/releases/latest "Latest GitHub release"
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-rp-store]: https://replugged.dev/install?identifier=net.saltssaumure.CRT "Replugged store installer"
-[release-rp-gh]:    https://replugged.dev/install?identifier=MiniDiscordThemes/CRT&source=github "Replugged GitHub installer"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/Squared.theme.css "Latest Squared.theme.css"
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.Squared "Replugged store page"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/net.saltssaumure.Squared.asar "Latest net.saltssaumure.Squared.asar"
 
 # CRT Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
-[![BetterDiscord GitHub downloads][shield-total-dl]][release-gh]
-[![Replugged downloads][shield-asar-dl]][release-rp-store]
+[![BetterDiscord GitHub downloads][shield-total-dl]][release-bd-gh]
+[![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 ![Total size][shield-repo-size]
 
 ***A CRT monitor effect Discord theme.***
@@ -38,7 +38,7 @@
 ### BetterDiscord
 1. Install [BetterDiscord][BetterDiscord].
 2. Download the `CRT.theme.css` file:
-    - [GitHub][release-gh]
+    - [GitHub][release-bd-gh]
 3. Place theme file in the `themes` folder:
     - Windows: `%AppData%/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
@@ -47,9 +47,8 @@
 ### Replugged
 1. Install [Replugged][Replugged].
 2. Install the theme:
-    - [Replugged store][release-rp-store]
-    - [GitHub (auto)][release-rp-gh]
-    - [GitHub (manual)][release-gh]
+    - [Replugged store][release-rp]
+    - [GitHub][release-rp-gh]
 
 ### Vencord
 1. Install [Vencord][Vencord].
