@@ -8,6 +8,6 @@ export default {
         /** The name of your theme repository. */
         repo: "CRT",
         /** The version of your theme. */
-        version: "1.0.2"
+        version: "1.0.3"
     }
 };
