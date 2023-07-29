@@ -10,24 +10,25 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-total-dl]:  https://img.shields.io/github/downloads/MiniDiscordThemes/CRT/CRT.theme.css?color=purple&label=BD%20GitHub%20downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/CRT/net.saltssaumure.CRT.asar?color=purple&label=Replugged%20downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/CRT?style=flat-square "Total size"
+[shield-bd-dl]:  https://img.shields.io/github/downloads/MiniDiscordThemes/CRT/CRT.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/CRT/net.saltssaumure.CRT.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/CRT?label=Repository&style=flat-square
 
+[github]:           https://github.com/MiniDiscordThemes/CRT
 [license]:          https://github.com/MiniDiscordThemes/CRT/blob/main/LICENSE
 [issues]:           https://github.com/MiniDiscordThemes/CRT/issues
 [.theme.css]:       https://github.com/MiniDiscordThemes/CRT/blob/main/CRT.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-bd-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/Squared.theme.css "Latest Squared.theme.css"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/Squared.theme.css "Latest release"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.Squared "Replugged store page"
-[release-rp-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/net.saltssaumure.Squared.asar "Latest net.saltssaumure.Squared.asar"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/Squared/releases/latest/download/net.saltssaumure.Squared.asar "Latest release"
 
 # CRT Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
-[![BetterDiscord GitHub downloads][shield-total-dl]][release-bd-gh]
+[![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
-![Total size][shield-repo-size]
+[![Total repository size][shield-repo-size]][github]
 
 ***A CRT monitor effect Discord theme.***
 

@@ -1,9 +1,9 @@
-@use "top/vars-scss" as *;
-@use "top/mixin" as *;
+@use "top/vars" as *;
+@use "top/overlay";
 
 // CRT stripes
 body::before {
-    @include overlay;
+    @include overlay.setup;
     display: var(--crt-stripe, $stripe);
     height: 100vh;
     background-size: 100% var(--crt-size, $size);
@@ -27,7 +27,7 @@ body::before {
 
 // CRT scanline
 body::after {
-    @include overlay;
+    @include overlay.setup;
     display: var(--crt-scanline, $scanline);
     height: var(--crt-size, $size);
     top: 0%;
