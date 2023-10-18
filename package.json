@@ -15,12 +15,12 @@
     },
     "type": "module",
     "dependencies": {
-        "@parcel/config-default": "^2.9.3",
-        "@parcel/core": "^2.9.3",
-        "@parcel/transformer-sass": "^2.9.3",
-        "@types/node": "^20.4.5",
-        "prettier": "^3.0.0",
-        "replugged": "^4.5.1",
-        "salt-bd-scss": "^1.0.0"
+        "@parcel/config-default": "^2.10.0",
+        "@parcel/core": "^2.10.0",
+        "@parcel/transformer-sass": "^2.10.0",
+        "@types/node": "^20.8.7",
+        "prettier": "^3.0.3",
+        "replugged": "^4.6.5",
+        "salt-bd-scss": "^1.1.0"
     }
 }
