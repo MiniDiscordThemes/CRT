@@ -1,26 +1,24 @@
 {
-    "name": "crt-discord-theme",
-    "version": "1.0.3",
-    "description": "A CRT monitor effect Discord theme.",
-    "repository": "https://github.com/MiniDiscordThemes/CRT.git",
-    "author": "Saltssaumure <themes@saltssaumure.net>",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-        "dev": "bd-scss dev",
-        "bd": "bd-scss build",
-        "rp": "replugged bundle theme",
-        "lint": "prettier ./scss --check",
-        "lint:fix": "prettier ./scss --write"
-    },
-    "type": "module",
-    "dependencies": {
-        "@parcel/config-default": "^2.10.0",
-        "@parcel/core": "^2.10.0",
-        "@parcel/transformer-sass": "^2.10.0",
-        "@types/node": "^20.8.7",
-        "prettier": "^3.0.3",
-        "replugged": "^4.6.5",
-        "salt-bd-scss": "^1.1.0"
-    }
+  "name": "crt-discord-theme",
+  "version": "1.0.3",
+  "description": "A CRT monitor effect Discord theme.",
+  "repository": "https://github.com/MiniDiscordThemes/CRT.git",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev:bd": "bd-scss dev",
+    "dev:rp": "replugged build theme --watch",
+    "dev:vc": "bd-scss dev:vc",
+    "build:bd": "bd-scss build",
+    "build:rp": "replugged bundle theme",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "replugged release"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "replugged": "^4.7.4",
+    "salt-bd-scss": "^1.1.0"
+  }
 }

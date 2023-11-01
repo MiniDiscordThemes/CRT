@@ -1,7 +1,10 @@
-.parcel-cache
+# Packages
+/node_modules
 
-node_modules
+# Build
+/dist
+/bundle
+/src
 
-dist
-bundle
-src
+# Social images
+/preview
