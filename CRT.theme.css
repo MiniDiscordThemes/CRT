@@ -2,33 +2,29 @@
  * @name CRT
  * @author Saltssaumure
  * @authorLink https://github.com/Saltssaumure
- * @description A CRT monitor effect Discord theme.
+ * @description A CRT monitor effect theme.
  * @license MIT
- * @version 1.0
+ * @version 1.1
  * @invite uy8nKQVatp
  * @source https://github.com/MiniDiscordThemes/CRT
+ * @website https://minidiscordthemes.github.io/CRT
  * @donate https://ko-fi.com/saltssaumure
+ *
+ * @var range   crt-size      "Width:   Applies to both scanlines and stripes." [4, 1, 20, 1, "px"]
+ * @var number  crt-height    "Z-index: Higher values will make the effect appear above more elements." [9999, null, null, 1, ""]
+ *
+ * @var select  crt-stripe              "Stripes"                               ["block:On*", "none:Off"]
+ * @var color   crt-stripe-light-color  "Light stripe: Low opacity recommended" #FFFFFF1A
+ * @var color   crt-stripe-dark-color   "Dark stripe: Low opacity recommended"  #00000080
+ *
+ * @var select  crt-scanline            "Scanline: ⚠️ Performance intensive"    ["block:On", "none:Off*"]
+ * @var range   crt-scanline-speed      "Scanline speed"                        [3, 0, 10, 0.2, "s"]
+ * @var color   crt-scanline-color      "Scanline color"                        #00000080
+ * @var select  crt-scanline-direction  "Scanline direction"                    ["normal:Normal*", "reverse:Reverse"]
+ *
+ * @var select  crt-flicker             "Flicker: ⚠️ May trigger photosensitive epilepsy" ["flicker:On", "none:Off*"]
+ * @var range   crt-flicker-speed       "Flicker speed"                                   [333, 0, 1000, 1, "ms"]
+ * @var color   crt-flicker-color       "Flicker color"                                   #00000080
 */
 
 @import url("https://minidiscordthemes.github.io/CRT/crt.min.css");
-
-/* See https://github.com/MiniDiscordThemes/CRT#customisation for customisation settings. */
-:root {
-    --crt-height:               9999;
-    --crt-size:                 4px;
-
-    --crt-stripe:               block;
-    --crt-stripe-light-color:   rgba(255, 255, 255, 0.1);
-    --crt-stripe-dark-color:    rgba(0, 0, 0, 0.1);
-
-    /* ⛐ This effect is performance-intensive. */
-    --crt-scanline:             block;
-    --crt-scanline-speed:       3s;
-    --crt-scanline-color:       rgba(0, 0, 0, 0.5);
-    --crt-scanline-direction:   normal;
-
-    /* ⚠ This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy. */
-    --crt-flicker:              none;
-    --crt-flicker-speed:        calc(1s/30);
-    --crt-flicker-color:        rgba(0, 0, 0, 0.1);
-}
