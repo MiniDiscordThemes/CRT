@@ -7,7 +7,7 @@
     "discordID": "134142022092062720",
     "github": "Saltssaumure"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.CRT"
@@ -17,7 +17,7 @@
   "main": "scss/crt.scss",
   "source": "https://github.com/MiniDiscordThemes/CRT",
   "image": [
-    "https://cdn.discordapp.com/attachments/946226984005025835/1129624808078979133/crt1.png",
-    "https://cdn.discordapp.com/attachments/946226984005025835/1129624808380956772/crt2.png"
+    "https://i.imgur.com/NbfTsVX.png",
+    "https://i.imgur.com/ap2IuNp.png"
   ]
 }
