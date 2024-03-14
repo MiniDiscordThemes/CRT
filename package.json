@@ -10,6 +10,7 @@
     "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
     "dev:vc": "bd-scss dev:vc",
+    "dev:vt": "bd-scss dev:vt",
     "build:bd": "bd-scss build",
     "build:rp": "replugged bundle theme",
     "lint": "prettier ./scss --check",
